@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #9e2b2d;
+}
+
+canvas {
+  image-rendering: pixelated;
+  width: 240px;
+  height: 480px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #9e2b2d;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-container h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.bottom-container {
+  margin-top: 25px;
+}
+
+.pixel-border {
+  margin: 0 10px;
+  padding: 30px;
+  border: 24px solid transparent;
+  border-radius: 48px;
+  border-image: url('/img/Pixel_Border.png') 48 stretch;
+  border-image-slice: 28%;
+  background: #d8d0e0;
+  image-rendering: pixelated;
+}
+
+.heading {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.info {
+  font-size: 2rem;
+  text-align: center;
+  color: hsl(0, 0%, 40%);
+}
+
+#discord-link {
+  cursor: pointer;
+  position: relative;
+  text-decoration: underline;
+}
+
+#discord-link:hover {
+  color: #9e2b2d;
+}
+
+#discord-tag {
+  cursor: text;
+  position: absolute;
+  top: -10px;
+  right: -3rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
