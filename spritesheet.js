@@ -24,7 +24,7 @@ const frameHeight = 96;
 const startFrame = 18; // Starting frame index
 const totalFrames = 6; // Number of frames to animate
 let currentFrame = 0;
-const frameDuration = 170; // Duration of each frame in milliseconds
+const frameDuration = 275; // Duration of each frame in milliseconds
 let lastFrameTime = 0;
 
 function drawFrame() {

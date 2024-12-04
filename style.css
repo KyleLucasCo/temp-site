@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #9e2b2d;
+  background: #A82B2D;
 }
 
 canvas {
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #9e2b2d;
+  color: #A82B2D;
 }
 
 .page {
@@ -70,25 +70,14 @@ a:hover {
   color: hsl(0, 0%, 40%);
 }
 
-#discord-link {
-  cursor: pointer;
-  position: relative;
-  text-decoration: underline;
+@media (max-width: 576px) {
+
+  .bottom-container {
+   height: 50vh;
+  }
+
+  .pixel-border {
+    padding: 10px;
+  }
 }
 
-#discord-link:hover {
-  color: #9e2b2d;
-}
-
-#discord-tag {
-  cursor: text;
-  position: absolute;
-  top: -10px;
-  right: -3rem;
-  font-size: 1rem;
-  color: black;
-}
-
-.hidden {
-  display: none;
-}
