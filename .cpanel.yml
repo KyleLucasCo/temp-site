@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/epipkl/kylelucas.co
-    - /bin/rm -rf $DEPLOYPATH/*
-    - /bin/cp -r dist/* $DEPLOYPATH 
+    - /bin/cp -R dist/* $DEPLOYPATH 
